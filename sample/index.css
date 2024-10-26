@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black; 
+     background-size: cover;/*here i have to give bgm is cover */
+     background-repeat: no-repeat;
+}
+#logo{
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-style: italic;
+}
+#logo::first-letter{
+    color: orangered;
+    font-size: 50px;
+    font-style: italic;
+}
+nav ul{
+    list-style: none;
+    float: right;
+    margin-right: 30px;
+    margin-top: 40px;
+}
+nav ul li{
+    display: flex;
+    display: inline;
+    text-decoration: none;
+    margin: 0 20px;
+}
+nav ul li a{
+    color: lightblue;
+    text-decoration: rgba(119, 128, 0, 0.897);
+    font-weight : bold;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 25px;
+
+
+}
+nav ul li a:hover{
+    color: white;
+    background-color: yellowgreen;
+}
+section{
+    width: auto;
+    height: auto;
+}
+#names {
+    color: lightcyan;
+    position: absolute;
+    top: 180px;
+    left: 150px;
+    font-size: 50px;
+    font-style: italic;
+}
+#names::first-letter{
+    color: red ;
+    font-size: 90px;
+}
+.domain{
+    color: lightcyan;
+    position: absolute;
+    top: 300px;
+    left: 180px;
+    font-size: 30px;
+    font-style: italic;
+}
+img{
+    width: 300px;
+    height: 400px;
+    margin-left: 800px;
+    margin-top: 90px;
+    border-radius: 300px;
+    border: solid 2px yellow;
+}
+#project{
+     background-color: aliceblue;
+     width: 500px;
+     height: 300px;
+     float: right;
+     margin-right: 150px;
+     margin-top: 100px;
+     border-radius: 50px;
+
+}
+#project h2{
+    color: rgb(7, 7, 7);
+    background: lightgray;
+    float: right;
+    margin-right: 160px;
+    font-size: 40px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: solid 2px black;
+}
+#project p{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-top: 90px;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+}
+.b1{
+    margin-left: 70px;
+    margin-top: 30px;
+    background-color: darkgray;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+}
+#skill{
+    color: white;
+    text-align: center;
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    margin-top: 500px;
+}
+.bend {
+    background-color: aliceblue;
+    color: black;
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-left: 100px;
+}
+.bend h1{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.bend h2{
+    margin-top: 10px;
+    background-color: lightcoral;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 50px;
+    border: solid 2px lightblue;
+}
+.bend h2:hover{
+    color: lightblue;
+}
+.fend{
+    background-color: aliceblue;
+    color: black;
+    width: 400px;
+    height: 400px;
+    float: right;
+    margin-right: 100px; 
+}
+.fend h1{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.fend h2{
+    margin-top: 10px;
+    background-color: lightcoral;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 50px;
+    border: solid 2px lightblue;
+}
+.fend h2:hover{
+    color: lightblue;
+}
+#contact{
+    background-color: transparent;
+    color: white;
+    margin-top: 1000px;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.formgroup{
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-left: 720px;
+    width: 400px;
+    height: 10%px;
+
+    
+}
+input{
+    border-radius: 20px;
+    margin-left: 78px;
+    text-align: center; 
+    font-size: 20px; 
+    background: transparent;
+    border: solid 2px orange;
+}
+ textarea{
+    border-radius: 20px;
+    margin-left: 78px;
+    text-align: center; 
+    font-size: 20px; 
+    background: transparent;
+    border: solid 2px orange;
+    width: 250px;
+ }
+ button{
+    padding: 10px;
+    margin-left: 580px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+ }
+ svg{
+    background-color: aliceblue;
+    width: 60px;
+    height: 40px;
+    position: absolute;
+    top: 1550px;
+    left: 60px;
+    border-radius: 5px;
+ }
+ .mail h2{
+    color: white;
+    position: absolute;
+    top: 1560px;
+    left: 150px;
+    font-style: italic;
+ }
+ .mail h2:hover{
+    color: lightblue;
+ }
+#cell{
+    position: absolute;
+    top: 1600px;
+}
+#phone{
+    color: white;
+    position: absolute;
+    top: 1610px;
+    left: 150px;
+}
+#phone h2:hover{
+    color: lightblue;
+}
+.domain button{
+    position: absolute;
+    top: 100x;
+}
+#git{
+    position: absolute;
+    top: 450px ;
+    left: 200px;
+}
+
+
